@@ -3,9 +3,13 @@ nodej+ejs模板，通过mogondb数据查询数据实现简单的登陆验证。
 
 搭建mogondb：
 一、首先安装mongodb
+
 1.下载地址：http://www.mongodb.org/downloads
+
 2.解压缩到自己想要安装的目录，比如d:\mongodb
+
 3.创建文件夹d:\mongodb\data\db、d:\mongodb\data\log，分别用来安装db和日志文件，在log文件夹下创建一个日志文件MongoDB.log，即d:\mongodb\data\log\MongoDB.log
+
 4.运行cmd.exe进入dos命令界面，执行下列命令
 　　> cd d:\mongodb\bin 
 　　> d:\mongodb\bin>mongod -dbpath "d:\mongodb\data\db"
